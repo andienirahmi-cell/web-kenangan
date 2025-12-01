@@ -1,0 +1,70 @@
+/* CSS terpisah untuk Web Kenangan Andien */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffeef7;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #ff9ecb, #ffcfea);
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    margin-top: 10px;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.memory-box {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.memory-box h2 {
+    margin-top: 0;
+    font-size: 1.7rem;
+    color: #d44c8f;
+}
+
+.photo-frame {
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 15px;
+    border: 6px solid #ffb6d6;
+}
+
+.photo-frame img {
+    width: 100%;
+    display: block;
+}
+
+.different-frame {
+    border-color: #9ecbff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
